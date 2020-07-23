@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
+    <url>
+        <loc>https://oostindische.com/</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    
+    
+    <url>
+        <loc>https://oostindische.com/about.html</loc>
+        
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+    
+    
+    
+    
+    <url>
+        <loc>https://oostindische.com/posts/2020-03-05-algebraic-tangent-spaces.html</loc>
+        <lastmod>2020-03-06</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    
+    
+</urlset>

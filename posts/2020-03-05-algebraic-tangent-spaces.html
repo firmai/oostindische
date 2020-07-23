@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+        
+
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
+        <link rel="canonical" href="https://oostindische.com/posts/2020-03-05-algebraic-tangent-spaces.html">
+        
+
+        
+        <title>Test post - blog</title>
+        
+
+        
+        <meta name="description" content="description">
+        
+
+        
+        <script>
+         var doNotTrack = false;
+         if (window.doNotTrack || navigator.doNotTrack || navigator.msDoNotTrack) {
+             if (window.doNotTrack == "1" || navigator.doNotTrack == "yes" || navigator.doNotTrack == "1" || navigator.msDoNotTrack == "1") {
+                 doNotTrack = true;
+             }
+         }
+         /*if (!doNotTrack) {
+             (function () {
+                 var ga = document.createElement('script');
+                 ga.type = 'text/javascript';
+                 ga.async = true;
+                 ga.src = "https://www.googletagmanager.com/gtag/js?id=UA-MY-GTAGS-ID";
+                 var s = document.getElementsByTagName('script')[0];
+                 s.parentNode.insertBefore(ga, s);
+             })();
+
+             window.dataLayer = window.dataLayer || [];
+             function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+
+             gtag('config', 'UA-MY-GTAGS-ID', {
+                 'anonymize_ip': true,
+                 'site_speed_sample_rate': 10,
+             });
+         }*/
+        </script>
+        
+
+        <link rel="stylesheet" href="../css/default.css">
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700&amp;display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700&amp;display=swap" rel="stylesheet">
+
+        
+        
+    </head>
+    <body><header class="logo">
+            <div class="logo-container">
+                <a href="../">
+                <img src="../images/capybara.png" alt="" style="width: 15rem;">
+                </a>
+            </div>
+        </header>
+        <header class="blog-title">
+            <div class="blog-title-container">
+                <a href="../">blog</a>
+            </div>
+        </header>
+
+        <nav>
+            <div class="sidebar-container">
+                <a href="../">Home</a>
+                <a href="../about.html">About</a>
+                <a href="../contact.html">Contact</a>
+                <a href="../archive.html">Archive</a>
+                <a href="../rss.xml">RSS Feed</a>
+            </div>
+        </nav>
+
+        <main role="main">
+            <div class="main-container">
+                <article>
+    <section class="article-title">
+        <h1>Test post</h1>
+        <div class="byline">
+            Posted March  5, 2020
+            
+        </div>
+        <div class="tags">
+            
+            Tags: <a href="../tags/Test%20tag.html">Test tag</a>
+            
+        </div>
+    </section>
+    <section class="article-body">
+        <p>Text</p>
+<!--more-->
+<p>More text</p>
+    </section>
+    <section class="comments">
+        <button id="show-comments-button" onclick="showComments()">Load comments</button>
+        <div id="graphcomment"></div>
+        <script type="text/javascript">
+         const MIN_SHOW_LOADING_MILLIS = 300;
+
+         commentsButton = document.getElementById('show-comments-button');
+
+         
+         if (!doNotTrack && gtag) {
+             function scrollBottomCallback(entries, observer) {
+                 if (entries[0].intersectionRatio <= 0) return;
+
+                 gtag('event', 'scroll_bottom', {
+                     'event_category': 'engagement'
+                 });
+
+                 observer.unobserve(commentsButton);
+             }
+
+             const observer = new IntersectionObserver(scrollBottomCallback, { threshold: '0.0' });
+             observer.observe(commentsButton);
+         }
+         
+
+         var loadTime;
+
+         function setLoadingText() {
+             commentsButton.innerHTML = "Loading...";
+         }
+
+         function failedLoadingText() {
+             const currentTime = new Date().getTime()
+             const elapsedTime = currentTime - loadTime;
+             if (elapsedTime < MIN_SHOW_LOADING_MILLIS) {
+                 setTimeout(function() {
+                     commentsButton.innerHTML = "Failed - try again?";
+                 }, MIN_SHOW_LOADING_MILLIS - elapsedTime);
+             } else {
+                 commentsButton.innerHTML = "Failed - try again?";
+             }
+         }
+
+         function hideCommentsButton() {
+             commentsButton.parentNode.removeChild(commentsButton);
+         }
+
+         function showComments() {
+             loadTime = new Date().getTime();
+             setLoadingText()
+
+             /*
+             
+             if (!doNotTrack && gtag) {
+                 gtag('event', 'show_comments', {
+                     'event_category': 'engagement'
+                 });
+             }
+             
+
+             window.gc_params = {
+                 graphcomment_id: 'MY-GRAPHCOMMENT-ID',
+
+                 // if your website has a fixed header, indicate it's height in pixels
+                 fixed_header_height: 0,
+             };
+
+             (function() {
+                 var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
+                 gc.src = 'https://graphcomment.com/js/integration.js?' + Math.round(Math.random() * 1e8);
+                 gc.onload = hideCommentsButton;
+                 gc.onerror = failedLoadingText;
+                 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
+             })();*/
+         }
+        </script>
+    </section>
+</article>
+
+            </div>
+        </main>
+
+        <footer>
+            Site proudly generated by
+            <a href="https://jaspervdj.be/hakyll/">Hakyll</a>
+        </footer>
+    
+
+</body></html>
